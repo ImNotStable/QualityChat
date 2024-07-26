@@ -1,0 +1,12 @@
+name: QualityChat
+version: '1.0.0'
+main: com.imnotstable.qualitychat.QualityChat
+api-version: '1.21'
+load: STARTUP
+authors: [ ImNotStable ]
+dependencies:
+  server:
+    LuckPerms:
+      load: BEFORE
+    PlaceholderAPI:
+      load: BEFORE
